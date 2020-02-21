@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "poc-angular-amplify": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "poc-angular-amplify"
+    }
+  },
+  "defaultProject": "poc-angular-amplify",
+  "cli": {
+    "analytics": "5593b05b-54e4-4ad3-81e4-eb167558194b"
+  }
 }
